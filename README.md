@@ -1,6 +1,6 @@
 # Deep_Learning_Challenge
 Module 21 Challenge
-
+*I used the help of CHATGPT to help me with parts of my code and the wording and flow of my README. I created this code using Google Colab.
 
 # Overview of the Analysis
 The purpose of this analysis is to develop a deep learning model to predict the success of funding applications for Alphabet Soup. The goal is to use a neural network to classify whether an applicant will be successful based on various features provided in the dataset. This analysis includes preprocessing the data, building and training a neural network model, and evaluating its performance.
@@ -41,7 +41,3 @@ These columns were dropped during preprocessing to focus on the features relevan
    
 # Summary
 The deep learning model built for predicting the success of funding applications achieved an accuracy of 72.36%, which is below the desired 75% target. The model structure included two hidden layers with 8 neurons each and used ReLU and sigmoid activation functions.
-
-
-
-*I used the help of CHATGPT to help me with parts of my code and the wording and flow of my README. I created this code using Google Colab.
