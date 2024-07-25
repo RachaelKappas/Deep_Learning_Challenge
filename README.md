@@ -19,14 +19,14 @@ The purpose of this analysis is to develop a deep learning model to predict the 
 These columns were dropped during preprocessing to focus on the features relevant to predicting the success of funding applications.
 
 # Compiling, Training, and Evaluating the Model
-Neurons, Layers, and Activation Functions:
-
-Input Layer: The number of neurons corresponds to the number of features in the dataset (8).
-Hidden Layers:
-First Hidden Layer: 8 neurons with ReLU activation function.
-Second Hidden Layer: 8 neurons with ReLU activation function.
-Output Layer: 1 neuron with a sigmoid activation function to output a probability for binary classification.
-Why This Configuration:
+* Neurons, Layers, and Activation Functions:
+ * Input Layer: The number of neurons corresponds to the number of features in the dataset (8).
+ * Hidden Layers:
+  * First Hidden Layer: 8 neurons with ReLU activation function.
+  * Second Hidden Layer: 8 neurons with ReLU activation function.
+ * Output Layer: 1 neuron with a sigmoid activation function to output a probability for binary classification.
+   
+### Why This Configuration:
 
 The number of neurons and layers was chosen to provide enough capacity to learn from the data while avoiding overfitting. The ReLU activation function introduces non-linearity, which is essential for learning complex patterns. The sigmoid activation function is appropriate for binary classification tasks.
 Model Performance:
