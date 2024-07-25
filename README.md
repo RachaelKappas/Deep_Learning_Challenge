@@ -20,10 +20,10 @@ These columns were dropped during preprocessing to focus on the features relevan
 
 # Compiling, Training, and Evaluating the Model
 * Neurons, Layers, and Activation Functions:
- * Input Layer: The number of neurons corresponds to the number of features in the dataset (8).
- * Hidden Layers:
-  * First Hidden Layer: 8 neurons with ReLU activation function.
-  * Second Hidden Layer: 8 neurons with ReLU activation function.
+  * Input Layer: The number of neurons corresponds to the number of features in the dataset (8).
+  * Hidden Layers:
+   * First Hidden Layer: 8 neurons with ReLU activation function.
+   * Second Hidden Layer: 8 neurons with ReLU activation function.
  * Output Layer: 1 neuron with a sigmoid activation function to output a probability for binary classification.
    
 ### Why This Configuration:
