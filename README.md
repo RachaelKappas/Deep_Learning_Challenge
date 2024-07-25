@@ -41,3 +41,7 @@ These columns were dropped during preprocessing to focus on the features relevan
    
 # Summary
 The deep learning model built for predicting the success of funding applications achieved an accuracy of 72.36%, which is below the desired 75% target. The model structure included two hidden layers with 8 neurons each and used ReLU and sigmoid activation functions.
+
+
+
+*I used the help of CHATGPT to help me with parts of my code and the wording and flow of my README. I created this code using Google Colab.
