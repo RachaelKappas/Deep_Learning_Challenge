@@ -27,17 +27,17 @@ These columns were dropped during preprocessing to focus on the features relevan
   * Output Layer: 1 neuron with a sigmoid activation function to output a probability for binary classification.
    
 ### Why This Configuration:
+* The number of neurons and layers was chosen to provide enough capacity to learn from the data while avoiding overfitting. The ReLU activation function introduces non-linearity, which is essential for learning complex patterns. The sigmoid activation function is appropriate for binary classification tasks.
+  
+* Model Performance:
+ *Loss: 0.5577
+ *Accuracy: 72.36%
+ *The target model performance was not achieved, as the accuracy fell short of the 75% target.
+* Steps Taken to Increase Model Performance:
+ * Adjusted the number of hidden layers and neurons.
+ * Used different activation functions.
+ * Experimented with the number of epochs and batch size during training.
 
-The number of neurons and layers was chosen to provide enough capacity to learn from the data while avoiding overfitting. The ReLU activation function introduces non-linearity, which is essential for learning complex patterns. The sigmoid activation function is appropriate for binary classification tasks.
-Model Performance:
-
-Loss: 0.5577
-Accuracy: 72.36%
-The target model performance was not achieved, as the accuracy fell short of the 75% target.
-Steps Taken to Increase Model Performance:
-
-Adjusted the number of hidden layers and neurons.
-Used different activation functions.
-Experimented with the number of epochs and batch size during training.
-Summary
+   
+# Summary
 The deep learning model built for predicting the success of funding applications achieved an accuracy of 72.36%, which is below the desired 75% target. The model structure included two hidden layers with 8 neurons each and used ReLU and sigmoid activation functions.
