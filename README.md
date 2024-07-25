@@ -1,12 +1,12 @@
-## Deep_Learning_Challenge
+# Deep_Learning_Challenge
 Module 21 Challenge
 
 
-## Overview of the Analysis
+# Overview of the Analysis
 The purpose of this analysis is to develop a deep learning model to predict the success of funding applications for Alphabet Soup. The goal is to use a neural network to classify whether an applicant will be successful based on various features provided in the dataset. This analysis includes preprocessing the data, building and training a neural network model, and evaluating its performance.
 
-## Results
-# Data Preprocessing
+# Results
+## Data Preprocessing
 * Target Variable:
   * IS_SUCCESSFUL: This is the binary target variable indicating whether the funding was used effectively (1 for successful, 0 for unsuccessful).
       
