@@ -30,13 +30,13 @@ These columns were dropped during preprocessing to focus on the features relevan
 * The number of neurons and layers was chosen to provide enough capacity to learn from the data while avoiding overfitting. The ReLU activation function introduces non-linearity, which is essential for learning complex patterns. The sigmoid activation function is appropriate for binary classification tasks.
   
 * Model Performance:
- *Loss: 0.5577
- *Accuracy: 72.36%
- *The target model performance was not achieved, as the accuracy fell short of the 75% target.
+ * Loss: 0.5577
+ * Accuracy: 72.36%
+ * The target model performance was not achieved, as the accuracy fell short of the 75% target.
 * Steps Taken to Increase Model Performance:
- * Adjusted the number of hidden layers and neurons.
- * Used different activation functions.
- * Experimented with the number of epochs and batch size during training.
+  * Adjusted the number of hidden layers and neurons.
+  * Used different activation functions.
+  * Experimented with the number of epochs and batch size during training.
 
    
 # Summary
